@@ -5,7 +5,7 @@ To get API key please contact Cosmo Bear team, example of key: `cb_H1WXCMUB334YX
 
 Request example:
 ```bash
-curl -v --location "https://cosmobear.io/api/partner/v1/user?id=340744037"\
+curl -v --location --request GET "https://cosmobear.io/api/partner/v1/user?id=340744037"\
  --header 'Authorization: Bearer cb_XXX...'
 ```
 
